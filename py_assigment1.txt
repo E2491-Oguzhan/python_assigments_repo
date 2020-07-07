@@ -1,0 +1,7 @@
+name = "Oguzhan"
+password = input("Enter your name to see your password :")
+
+if name == password:
+    print("Hello,", password, "Your password is : @Y53L")
+if name != password:
+    print("Hello,", password, "! See you later.")
